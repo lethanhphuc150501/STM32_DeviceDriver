@@ -1,0 +1,17 @@
+17:23:48 **** Incremental Build of configuration Debug for project 2_gpio_output ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32F103RBTx -DSTM32 -DSTM32F1 -DSTM32F103xB -c -I../Inc -I"E:/Embedded/chip_headers/CMSIS/Device/ST/STM32F1xx/Include" -I"E:/Embedded/chip_headers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "2_gpio_output.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\Embedded\[IDE] Nucleo STM32F103RB\2_gpio_output\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2_gpio_output.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2_gpio_output.elf
+ 
+arm-none-eabi-size   2_gpio_output.elf 
+arm-none-eabi-objdump -h -S  2_gpio_output.elf  > "2_gpio_output.list"
+   text	   data	    bss	    dec	    hex	filename
+    660	      8	   1568	   2236	    8bc	2_gpio_output.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2_gpio_output.list
+ 
+
+17:23:49 Build Finished. 0 errors, 0 warnings. (took 1s.31ms)
+

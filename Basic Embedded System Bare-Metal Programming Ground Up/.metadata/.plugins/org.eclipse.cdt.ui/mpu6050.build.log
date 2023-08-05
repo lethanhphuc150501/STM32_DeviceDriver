@@ -1,0 +1,12 @@
+09:33:44 **** Incremental Build of configuration Debug for project mpu6050 ****
+make -j8 all 
+arm-none-eabi-size   mpu6050.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22288	    484	   1796	  24568	   5ff8	mpu6050.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "mpu6050.elf" "mpu6050.hex"
+ 
+
+09:33:45 Build Finished. 0 errors, 0 warnings. (took 672ms)
+

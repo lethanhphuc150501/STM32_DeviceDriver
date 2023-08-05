@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;22_SPI_ADXL345/16_uart_rx_interrupt (1).launch&apos;" deleteContents="false" description="Delete resource &apos;22_SPI_ADXL345/16_uart_rx_interrupt (1).launch&apos;" element1="/22_SPI_ADXL345/16_uart_rx_interrupt (1).launch" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1661478116946"/>
+</session>

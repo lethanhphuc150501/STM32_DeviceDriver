@@ -1,0 +1,10 @@
+11:35:31 **** Incremental Build of configuration Debug for project 6_uart_printf ****
+make -j8 all 
+arm-none-eabi-size   6_uart_printf.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5236	    108	   1588	   6932	   1b14	6_uart_printf.elf
+Finished building: default.size.stdout
+ 
+
+11:35:31 Build Finished. 0 errors, 0 warnings. (took 173ms)
+

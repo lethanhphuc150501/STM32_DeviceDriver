@@ -1,0 +1,21 @@
+16:19:41 **** Incremental Build of configuration Debug for project 8_ADC_DMA ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/adc_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32F103RBTx -DSTM32 -DSTM32F1 -DSTM32F103xB -c -I../Inc -I"E:/Embedded/chip_headers/CMSIS/Include" -I"E:/Embedded/chip_headers/CMSIS/Device/ST/STM32F1xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/adc_dma.d" -MT"Src/adc_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/adc_dma.o"
+arm-none-eabi-gcc -o "8_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\Embedded\Advanced Embedded Systems Bare-Metal Programming Gound Up\8_ADC_DMA\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="8_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 8_ADC_DMA.elf
+ 
+arm-none-eabi-size   8_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S  8_ADC_DMA.elf  > "8_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1176	      8	   1568	   2752	    ac0	8_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: 8_ADC_DMA.list
+ 
+16:19:49 **** Incremental Build of configuration Debug for project 8_ADC_DMA ****
+make -j8 all 
+arm-none-eabi-size   8_ADC_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1176	      8	   1568	   2752	    ac0	8_ADC_DMA.elf
+Finished building: default.size.stdout
+ 

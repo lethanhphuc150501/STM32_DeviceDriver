@@ -1,0 +1,10 @@
+21:35:49 **** Build of configuration Debug for project Chap8-ex2 ****
+make -j8 all 
+arm-none-eabi-size   Chap8-ex2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12308	    124	   1660	  14092	   370c	Chap8-ex2.elf
+Finished building: default.size.stdout
+ 
+
+21:35:50 Build Finished. 0 errors, 0 warnings. (took 856ms)
+

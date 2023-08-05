@@ -1,0 +1,10 @@
+12:14:20 **** Incremental Build of configuration Debug for project 7_uart_modular ****
+make -j8 all 
+arm-none-eabi-size   7_uart_modular.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5236	    108	   1588	   6932	   1b14	7_uart_modular.elf
+Finished building: default.size.stdout
+ 
+
+12:14:20 Build Finished. 0 errors, 0 warnings. (took 214ms)
+

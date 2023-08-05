@@ -1,0 +1,10 @@
+11:29:29 **** Incremental Build of configuration Debug for project 4_WorkingWithITM-Printf_logs ****
+make -j8 all 
+arm-none-eabi-size   4_WorkingWithITM-Printf_logs.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5544	    108	   1588	   7240	   1c48	4_WorkingWithITM-Printf_logs.elf
+Finished building: default.size.stdout
+ 
+
+11:29:30 Build Finished. 0 errors, 0 warnings. (took 263ms)
+

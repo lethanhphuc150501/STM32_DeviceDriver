@@ -1,0 +1,10 @@
+1662347208570	Delete resource '22_SPI_ADXL345/22_SPI_ADXL345.launch'
+1662347222937	Delete resource '22_SPI_ADXL345/Debug'
+1662454369639	Delete resource '10_adc_continous_conversion/Debug'
+1662454374148	Delete resource '10_adc_continous_conversion/10_adc_continous_conversion.launch'
+1662454385487	Delete 8 resources
+1662459687090	Delete resource '9_adc/2_gpio_output Debug.launch'
+1662459693391	Delete 6 resources
+1662459744279	Delete resource '9_adc/Debug'
+1662459819711	Delete resource '9_adc/Inc/uart.h'
+1662459825710	Delete resource '9_adc/Src/uart.c'

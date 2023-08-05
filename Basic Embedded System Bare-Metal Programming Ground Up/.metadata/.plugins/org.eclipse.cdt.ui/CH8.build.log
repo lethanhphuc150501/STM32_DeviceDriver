@@ -1,0 +1,10 @@
+15:22:01 **** Incremental Build of configuration CH8-EX1 for project CH8 ****
+make -j8 all 
+arm-none-eabi-size   CH8.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9128	    120	   1656	  10904	   2a98	CH8.elf
+Finished building: default.size.stdout
+ 
+
+15:22:01 Build Finished. 0 errors, 0 warnings. (took 299ms)
+

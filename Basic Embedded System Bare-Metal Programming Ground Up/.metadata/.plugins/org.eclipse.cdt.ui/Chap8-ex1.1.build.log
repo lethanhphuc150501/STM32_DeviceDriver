@@ -1,0 +1,10 @@
+14:52:11 **** Incremental Build of configuration Debug for project Chap8-ex1.1 ****
+make -j8 all 
+arm-none-eabi-size   Chap8-ex1.1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10036	    120	   1656	  11812	   2e24	Chap8-ex1.1.elf
+Finished building: default.size.stdout
+ 
+
+14:52:11 Build Finished. 0 errors, 0 warnings. (took 224ms)
+

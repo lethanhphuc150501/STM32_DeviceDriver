@@ -1,0 +1,17 @@
+15:54:58 **** Incremental Build of configuration Debug for project 20_uart_tx_dma_testing ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32F103RBTx -DSTM32 -DSTM32F1 -DSTM32F103xB -c -I../Inc -I"E:/Embedded/chip_headers/CMSIS/Device/ST/STM32F1xx/Include" -I"E:/Embedded/chip_headers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "20_uart_tx_dma_testing.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\Embedded\[IDE] Nucleo STM32F103RB\20_uart_tx_dma_testing\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="20_uart_tx_dma_testing.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 20_uart_tx_dma_testing.elf
+ 
+arm-none-eabi-size   20_uart_tx_dma_testing.elf 
+arm-none-eabi-objdump -h -S  20_uart_tx_dma_testing.elf  > "20_uart_tx_dma_testing.list"
+   text	   data	    bss	    dec	    hex	filename
+   1272	      8	   1568	   2848	    b20	20_uart_tx_dma_testing.elf
+Finished building: default.size.stdout
+ 
+Finished building: 20_uart_tx_dma_testing.list
+ 
+
+15:54:59 Build Finished. 0 errors, 0 warnings. (took 824ms)
+

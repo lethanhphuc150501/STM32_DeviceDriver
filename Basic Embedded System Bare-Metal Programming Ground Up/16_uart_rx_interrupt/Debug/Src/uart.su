@@ -1,0 +1,8 @@
+E:/Embedded/chip_headers/CMSIS/Include/core_cm3.h:1511:22:__NVIC_EnableIRQ	16	static
+../Src/uart.c:24:5:__io_putchar	16	static
+../Src/uart.c:30:6:UART2_RX_interrupt_init	8	static
+../Src/uart.c:68:6:UART2_RX_TX_init	8	static
+../Src/uart.c:100:6:uart2_read	4	static
+../Src/uart.c:109:6:uart2_write	16	static
+../Src/uart.c:119:13:uart_set_baudrate	24	static
+../Src/uart.c:124:17:compute_uart_bd	16	static
